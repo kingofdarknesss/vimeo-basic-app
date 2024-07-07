@@ -1,8 +1,5 @@
 let Vimeo = require("vimeo").Vimeo;
-let client = new Vimeo(
-  "e200750f600d9978960031a7e17f84a3b8a30ad9",
-  "XGwvbDDzrJBJEuaJrVrnQodCefRpSH9kop8qBoeXczq7LGpewMGqxGY05ZVDqTK7g/EoAcIWNP6dprgv3x0lrNls5ryvq/WGdOxa9fwWvJ//um8sn+ftOEXmeekR2JQX",
-  "1f266dc6d8871a1e2cbdddc7676a9012"
+let client = new client({client id},{client secret },{access token}
 );
 
 client.request(
